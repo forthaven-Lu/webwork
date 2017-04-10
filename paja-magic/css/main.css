@@ -82,7 +82,7 @@ border-bottom: 1px solid #AAA;
     background: url('../img/goofy.jpg');
     background-repeat: no-repeat;
     /*background-position: center;*/
-    background-position: 68% 0%;*
+    background-position: 47% 0%;
     background-attachment: fixed;
     background-size: cover;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
@@ -96,7 +96,7 @@ border-bottom: 1px solid #AAA;
     background: url('../img/bear.jpg');
     background-repeat: no-repeat;
     /*background-position: inherit;*/
-    background-position: center;
+    background-position: 83% 0%;
     background-attachment: fixed;
     background-size: cover;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);

@@ -1,0 +1,104 @@
+@media (min-width:767px) {
+    html, body, nav, .sidebar, .main-content, .row {
+        height: 100%;
+        min-height: 100%;
+    }
+    .container-fluid{
+      height: 100%;
+      min-height: 100%;
+      padding-left: 0px;
+    }
+    .sidebar .navbar{
+        position: fixed;
+        width: 200px;
+    }
+
+}
+@@media (max-width:767px) {
+
+}
+
+/*--  Main content--*/
+.content-section {
+    min-height: 100vh;
+}
+
+.main-content{
+  padding-left: 30px;
+}
+/*-- Side bar --*/
+.sidebar .navbar-collapse ul {
+
+  display: block;
+}
+.sidebar .navbar-collapse li {
+  float: none;
+  display: block;
+}
+/*-- HOME --*/
+
+#HOME {
+  padding-top: 100px;
+    background-image: url('../img/rail.jpg');
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    /*background-position: 15% -10%;*/
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+/*#HOME h1:after { content: ''; display: block; border-bottom: 1px solid #AAA; padding-top: 3px;
+border-bottom: 1px solid #AAA;
+}*/
+#HOME h1{
+  font-family: Rancho;
+  font-size: 120px;
+}
+#HOME h5{
+  padding-top: 30px;
+  font-family: 'Fredericka the Great' ;
+  font-size: 30px;
+}
+
+/*-- IDEAS --*/
+
+#IDEAS {
+    background: url('../img/dumboo.jpg');
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-position: 60% 0%;
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+/*-- STORY --*/
+
+#STORY {
+    background: url('../img/goofy.jpg');
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-position: 68% 0%;*
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+/*-- PRODUCTS --*/
+
+#PRODUCTS {
+    background: url('../img/bear.jpg');
+    background-repeat: no-repeat;
+    /*background-position: inherit;*/
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+    text-align: center;
+}

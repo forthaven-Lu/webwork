@@ -2,3 +2,49 @@
   font-family:Monospace;
 
 }
+img.navbar-brand{
+  padding-top: 0px;
+  margin-top: -5px;
+}
+#Potrait{
+  width: 85%;
+  height:auto;
+  background: transparent;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#other-photos .thumbnail img{
+  width:auto;
+  max-height: 200px;
+}
+#other-photos .thumbnail{
+  background: transparent;
+  background-color: rgba(255,255,255,0.5);
+}
+.jumbotron{
+  width:100%;
+  background-image: url('http://static6.depositphotos.com/1016682/632/i/950/depositphotos_6321382-White-brick-wall.jpg') center;
+
+}
+section.content-section{
+  width:100%;
+}
+.content-section{
+  padding-top: 100px;
+}
+.content-section h1::after{
+  content = "";
+  border-bottom: 1px solid grey;
+  display: block;
+}
+.content-section h1{
+  color: #473f40;
+  font-size: 25px;
+  font-weight: 200;
+}
+.content-section p{
+  font-size: 14px;
+}
+.content-section p.section-lead{
+  font-style: italic;
+}

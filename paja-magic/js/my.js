@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $('.carousel').carousel();
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a").on('click', function(event) {
 

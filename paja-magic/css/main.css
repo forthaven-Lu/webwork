@@ -75,7 +75,10 @@ border-bottom: 1px solid #AAA;
     text-align: center;
 }
 
-
+#IDEAS h1{
+  font-family: Rancho;
+  font-size: 100px;
+}
 /*-- STORY --*/
 
 #STORY {
@@ -89,7 +92,28 @@ border-bottom: 1px solid #AAA;
     text-align: center;
 }
 
-
+#STORY h1{
+  padding-top: 30px;
+  font-family: Rancho;
+  font-size: 120px;
+}
+/*#STORY .carousel{
+  padding-top: 360px;
+}
+#STORY .c-control{
+  margin-top: 360px;
+}*/
+#STORY .carousel-controls{
+ position:relative;
+  width:300px;
+  margin:0 auto;
+}
+#STORY .fa{
+  margin-top: 50%;
+}
+.carousel img{
+  margin: auto;
+}
 /*-- PRODUCTS --*/
 
 #PRODUCTS {

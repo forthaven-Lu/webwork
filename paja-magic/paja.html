@@ -6,7 +6,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Rancho|Quicksand&effect=shadow-multiple">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Rancho|Quicksand&effect=shadow-multiple|Josefin+Sans|Oswald|Quicksand">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.min.css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -15,7 +15,15 @@
 </head>
 
 <body>
-    <div class="content">
+  <div class="container-fluid loading-page">
+    <div class="load-wrap" style="display:none;">
+      <img src="img/pajamago.png" alt="" class="pajamago" >
+      <a href="#"><span class="start">Start Here <i class="fa fa-arrow-down " aria-hidden="true"></i></span></a>
+
+    </div>
+
+  </div>
+    <div class="content" style="display: none;">
         <nav class="navbar navbar-default sidebar" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -63,7 +71,7 @@
                             </div>
                             <div class="col-sm-5 firstrow intro-row">
                                 <div class="intro-container">
-                                    <h5> Your pajama can speak ! for those story lovers.</h5>
+                                    <span> Your pajama can speak ! for those story lovers.</span>
                                 </div>
                             </div>
 
@@ -115,13 +123,15 @@
                 <div class="col-sm-7 article-container">
                   <div class="row">
                     <div class="col-xs-10">
-                      <div class="article-infp-block">
-                        <span> Paja in the news</span>
+                      <div class="article-info-block">
+                        <span class="article-title"> Paja in the news</span>
                         <p style="border-bottom:1px solid #bdb4a5;">&nbsp;</p>
                         <a href="#">
 
-                          <span> How to Choose a Gift for Your Kids</span>
+                          <span class="article-content"> How to Choose a Gift for Your Kids</span>
                         </a>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                         <span class="article-date">November 2016</span>
                       </div>
                     </div>
@@ -139,10 +149,11 @@
                 <div class="col-sm-7 article-container">
                   <div class="row">
                     <div class="col-xs-10">
-                      <div class="article-infp-block">
-                        <span> event</span>
+                      <div class="article-info-block">
+                        <span class="article-title"> 12-16</span>
                         <p style="border-bottom:1px solid #bdb4a5;">&nbsp;</p>
-                        <span> this is your event</span>
+                                                <span class="article-date">November 2016<br></span>
+                        <span class="article-content"> this is your event</span>
                       </div>
                     </div>
                   </div>

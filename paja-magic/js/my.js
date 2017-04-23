@@ -1,4 +1,11 @@
 $(document).ready(function(){
+  // $('.moreinfo').on('click',function(event){
+  //   $('.sleeping2').css("margin-top","-10vh");
+  // });
+
+
+
+  // Click scroll animation
   $('.carousel').carousel();
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a").on('click', function(event) {

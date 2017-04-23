@@ -1,0 +1,326 @@
+body, html {
+    height: 100%;
+}
+
+
+/* remove outer padding */
+
+.main {
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.main .row {
+    margin-left: -5px;
+    margin-right: 0px;
+}
+
+
+/*Remove rounded coners*/
+
+nav.sidebar.navbar {
+    border-radius: 0px;
+}
+
+nav .navbar-brand img {
+    width: 180px;
+    height: auto;
+    float: left;
+}
+
+
+/* navbar background color*/
+
+.navbar-default {
+    background-color: #f5c5c5;
+    border-color: #f5c5c5;
+}
+
+
+/*colors dropdown box text */
+
+.navbar-nav>li>a {
+    color: #877d7b;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #93c6e5;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube-square {
+    color: #bb0000;
+}
+
+
+/* main content on the right*/
+
+.content-section {
+    height: 100vh;
+}
+
+.contact-icon {
+    display: inline-block;
+}
+
+.contact-icon a {
+    display: inline-block !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+@media (max-width:768px) {
+    nav .navbar-header {
+        height: 110px;
+    }
+    nav .navbar-header .navbar-toggle {
+        margin-top: 30px;
+    }
+    nav .navbar-brand img {
+        margin-top: -20px;
+    }
+}
+
+
+/* .....NavBar: Fully showing nav bar..... */
+
+@media (min-width: 768px) {
+    /*Allow main to be next to Nav*/
+    .main {
+        position: absolute;
+        width: calc(100% - 200px);
+        /*keeps 100% minus nav size*/
+        margin-left: 200px;
+        float: right;
+    }
+    /*Center Brand*/
+    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
+    /*Center Brand*/
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header, nav.sidebar .navbar-nav {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .navbar-default {
+        position: fixed;
+    }
+    /* Padding for logo*/
+    nav .navbar-nav {
+        margin-top: 20vh;
+    }
+    nav.sidebar .navbar-nav {
+        font-size: 2em;
+        font-weight: bold;
+        font-family: Rancho;
+    }
+    /*adds border top to first nav box */
+    /*nav.sidebar .navbar-nav > li:first-child{
+			border-top: 1px #e5e5e5 solid;
+		}*/
+    /*adds border to bottom nav boxes*/
+    /*nav.sidebar .navbar-nav > li{
+			border-bottom: 1px #e5e5e5 solid;
+		}*/
+    /* Colors/style dropdown box*/
+    /*allows nav box to use 100% width*/
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid {
+        padding: 0 0px 0 0px;
+    }
+    /*gives sidebar width/height*/
+    nav.sidebar {
+        position: fixed;
+        width: 200px;
+        height: 100%;
+        margin-left: 0px;
+        float: left;
+        z-index: 8000;
+        margin-bottom: 0px;
+    }
+    /*give sidebar 100% width;*/
+    nav.sidebar li {
+        width: 100%;
+    }
+    /* Move nav to full on mouse over*/
+    /*nav.sidebar:hover{
+			margin-left: 0px;
+		}*/
+    /*for hiden things when navbar hidden*/
+    .forAnimate {
+        opacity: 0;
+    }
+}
+
+
+/* .....NavBar: Fully showing nav bar..... */
+
+
+/*
+	nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+
+	}*/
+
+nav:hover .forAnimate {
+    opacity: 1;
+}
+
+section {
+    padding-left: 15px;
+}
+
+
+/* FIRST PAGE CONTENT*/
+
+.sleeping1 {
+    /*min-height: 100vh;*/
+    background-image: url('../img/sleeping1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    color: #d1945e;
+}
+
+.sleeping1 .thiscontent-row, .sleeping1 .this-content {
+    height: 100%;
+}
+
+.sleeping1 .col-sm-5.firstrow {
+    margin: 30px 0 0 10px;
+}
+
+.sleeping1 .firstrow.this-row {
+    border-top: 3px solid #8e7d60;
+    border-bottom: 5px solid #8e7d60;
+}
+
+.sleeping1 .firstrow.intro-row {
+    border-top: 5px solid #8e7d60;
+}
+
+.sleeping1 .this-container h1 {
+    margin-top: 10px;
+}
+
+
+/*.sleeping1 .intro-container{
+  padding-top: 20px;
+}*/
+
+.sleeping1 a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Arial;
+    color: #d1945e;
+}
+
+.sleeping1 .explore-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-bottom: 3px solid #8e7d60;
+}
+
+.sleeping1 .explore-container span {
+    margin: -5px 0px 0px 20px;
+    display: inline-block;
+}
+
+.sleeping1 .watch-container span {
+    margin: -5px 0px 0px 20px;
+    display: inline-block;
+}
+
+.sleeping1 .watch-container i {
+    padding-top: 3px;
+    color: #cd201f;
+}
+
+.sleeping1 i {
+    display: inline-block;
+    float: left;
+}
+
+/*.col {
+    height: calc( 100% - 239px);
+}
+
+.colh {
+    height: 100%;
+}*/
+
+.sleeping1 .moreinfo-container {
+    position: absolute;
+    bottom: 15px;
+}
+
+.sleeping1 .moreinfo-container span {
+    display: inline-block;
+    margin: 5px 0px 0px 20px;
+}
+
+.content-section.sleeping2 {
+    /*height: 100vh;*/
+    background-color: #efe2cf;
+}
+
+
+/*.sleeping2 .join-container p{
+  display: block;
+  float: right;
+}
+*/
+.sleeping2{
+margin-left: -10px;
+}
+.sleeping2 .title{
+vertical-align: middle;
+margin-left: 40px;
+  font-family: Arial;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 20px;
+  height: 8vh;
+}
+.sleeping2 .image-container {
+  overflow: hidden;
+    max-height: 35vh;
+
+}
+.sleeping2 img{
+  height:  auto;
+  width: 100%;
+}
+.sleeping2 i {
+    color: #d1945e;
+}
+.sleeping2 .event-container, .sleeping2 .news-container{
+  background-color: #ebcda2;
+}
+.sleeping2 .join-container{
+  padding-top: 20px;
+}
+.sleeping2 .join-container a {
+    display: block;
+    float: right;
+}
+
+.join-text {
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+}

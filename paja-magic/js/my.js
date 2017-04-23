@@ -2,7 +2,7 @@ $(document).ready(function(){
   // $('.moreinfo').on('click',function(event){
   //   $('.sleeping2').css("margin-top","-10vh");
   // });
-  $('.load-wrap').delay(5000).fadeIn(1000);
+  $('.pajamago').delay(5000).fadeIn(1000);
 $('.start').on('click',function(){
   $('.loading-page').hide();
   $('.content').fadeIn(1000);

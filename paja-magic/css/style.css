@@ -8,6 +8,8 @@ body, html {
 .container-fluid.loading-page{
   padding-left: 0px;
   padding-right: 0px;
+
+  overflow: hidden;
 }
 .loading-page{
   height: 100%;
@@ -17,6 +19,8 @@ background-position: 0px 100%;
 background-repeat: no-repeat;
 background-size: cover;
 animation: animatedBackground 5s linear;
+
+overflow: hidden;
 }
 .loading-page a{
   text-decoration: none;

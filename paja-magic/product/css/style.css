@@ -1,0 +1,304 @@
+body, html {
+    height: 100%;
+}
+/* remove outer padding */
+
+.main {
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.main .row {
+    margin-left: -5px;
+    margin-right: 0px;
+}
+
+
+/*Remove rounded coners*/
+
+nav.sidebar.navbar {
+    border-radius: 0px;
+}
+
+nav .navbar-brand img {
+    width: 180px;
+    height: auto;
+    float: left;
+}
+
+
+/* navbar background color*/
+
+.navbar-default {
+    background-color: #f5c5c5;
+    border-color: #f5c5c5;
+}
+
+
+/*colors dropdown box text */
+
+.navbar-nav>li>a {
+    color: #877d7b;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #93c6e5;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube-square {
+    color: #bb0000;
+}
+
+
+/* main content on the right*/
+
+.content-section {
+    height: 100vh;
+}
+
+.contact-icon {
+    display: inline-block;
+}
+
+.contact-icon a {
+    display: inline-block !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+@media (max-width:768px) {
+    nav .navbar-header {
+        height: 110px;
+    }
+    nav .navbar-header .navbar-toggle {
+        margin-top: 30px;
+    }
+    nav .navbar-brand img {
+        margin-top: -20px;
+    }
+}
+
+
+/* .....NavBar: Fully showing nav bar..... */
+
+@media (min-width: 768px) {
+    /*Allow main to be next to Nav*/
+    .main {
+        position: absolute;
+        width: calc(100% - 200px);
+        /*keeps 100% minus nav size*/
+        margin-left: 200px;
+        float: right;
+    }
+    /*Center Brand*/
+    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
+    /*Center Brand*/
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header, nav.sidebar .navbar-nav {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .navbar-default {
+        position: fixed;
+    }
+    /* Padding for logo*/
+    nav .navbar-nav {
+        margin-top: 20vh;
+    }
+    nav.sidebar .navbar-nav {
+        font-size: 2em;
+        font-weight: bold;
+        font-family: Rancho;
+    }
+    /*adds border top to first nav box */
+    /*nav.sidebar .navbar-nav > li:first-child{
+			border-top: 1px #e5e5e5 solid;
+		}*/
+    /*adds border to bottom nav boxes*/
+    /*nav.sidebar .navbar-nav > li{
+			border-bottom: 1px #e5e5e5 solid;
+		}*/
+    /* Colors/style dropdown box*/
+    /*allows nav box to use 100% width*/
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid {
+        padding: 0 0px 0 0px;
+    }
+    /*gives sidebar width/height*/
+    nav.sidebar {
+        position: fixed;
+        width: 200px;
+        height: 100%;
+        margin-left: 0px;
+        float: left;
+        z-index: 8000;
+        margin-bottom: 0px;
+    }
+    /*give sidebar 100% width;*/
+    nav.sidebar li {
+        width: 100%;
+    }
+    /* Move nav to full on mouse over*/
+    /*nav.sidebar:hover{
+			margin-left: 0px;
+		}*/
+    /*for hiden things when navbar hidden*/
+    .forAnimate {
+        opacity: 0;
+    }
+}
+
+
+/* .....NavBar: Fully showing nav bar..... */
+
+
+/*
+	nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+
+	}*/
+
+nav:hover .forAnimate {
+    opacity: 1;
+}
+
+section {
+    padding-left: 15px;
+}
+
+
+/* FIRST PAGE CONTENT*/
+
+
+.content-section.product1 {
+    /*height: 100vh;*/
+    background-color: #efe2cf;
+}
+
+
+/*.product1 .join-container p{
+  display: block;
+  float: right;
+}
+*/
+.product1{
+margin-left: -10px;
+}
+.product1 .title{
+vertical-align: middle;
+margin-left: 40px;
+  font-family: Arial;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 20px;
+  height: 8vh;
+}
+.product1 .image-container {
+  overflow: hidden;
+  max-width: 487px;
+}
+.product1 img{
+  height:  auto;
+  width: 100%;
+}
+.product1 i {
+    color: #d1945e;
+}
+.product1 .paja-container img{
+  max-width: 487px;
+  max-height: 627px;
+  overflow: hidden;
+}
+.sticker-img {
+  max-width: 300px;
+  max-height: 300px;
+  overflow: hidden;
+}
+.product1 .sticker-img img{
+  max-width: 300px;
+  max-height: 300px;
+  overflow: hidden;
+}
+.product1 .sticker-container, .product1 .paja-container{
+  background-color: #ebcda2;
+}
+.product1 .join-container{
+  padding-top: 20px;
+}
+.product1 .join-container a {
+    display: block;
+    float: right;
+}
+.product1 .article-container{
+      padding: 15px 15px 15px 0;
+}
+.product1 .article-title{
+  padding-top: 5px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.product1 .article-title{
+  display: inline-block;
+  padding-top: 10px;
+}
+.product1 .article-info-block i{
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+margin-top: -5px;
+}
+.sticker-row{
+  margin:10px auto;
+  padding-top: 20px;
+}
+.fa-caret-left{
+  float:left;
+}
+.fa-caret-right{
+  float:right;
+}
+.product1 .sticker-row{
+      border-top: 3px solid #8e7d60;
+}
+.product1 .article-content {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Oswald;
+    color: #877d7b;
+}
+.product1 .article-date{
+  font-size:20px;
+  font-family: 'Josefin Sans';
+}
+.product1 .sticker-container .article-title{
+  font-size:50px;
+  font-family: Arial;
+  font-weight: 600;
+  color: white;
+}
+.product1 .sticker-container .article-title+p{
+margin-top: -20px;
+}
+.join-text {
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+}

@@ -6,12 +6,6 @@ body, html {
 .main {
     padding: 0px;
     margin-left: 0px;
-    background-color: #efe2cf;
-    height: 100vh;
-    background-image: url('../img/sleeping6.jpg');
-    background-position: 20% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .main .row {
@@ -71,10 +65,10 @@ nav .navbar-brand img {
 
 
 /* main content on the right*/
-/*
+
 .content-section {
     height: 100vh;
-}*/
+}
 
 .contact-icon {
     display: inline-block;
@@ -190,21 +184,21 @@ section {
 /* FIRST PAGE CONTENT*/
 
 
-.content-section.activities1 {
+.content-section.forum1 {
     /*height: 100vh;*/
     background-color: #efe2cf;
 }
 
 
-/*.activities1 .join-container p{
+/*.forum1 .join-container p{
   display: block;
   float: right;
 }
 */
-.activities1{
+.forum1{
 margin-left: -10px;
 }
-.activities1 .title{
+.forum1 .title{
 vertical-align: middle;
 margin-left: 40px;
   font-family: Arial;
@@ -212,116 +206,43 @@ margin-left: 40px;
   font-weight: bold;
   padding-top: 20px;
 }
-input:focus{
-    outline: none;
-}
-.activities1 .title .email-container{
 
+.forum1 .vote-container{
+  padding-top: 20px;
+      background-color: #ebcda2;
+      padding-bottom: 20px;
+}
+.votee{
+  margin: 10px 0 0 50px;
 font-size: 20px;
+font-weight: bold;
 }
-.activities1 .email-container .emailinput{
-  width: 100%;
-  border-radius: 10px;
-  border-width: 1px;
-  background-color: transparent;
-}
-.activities1 .image-container {
-  overflow: hidden;
-  max-width: 487px;
-}
-.activities1 img{
-  height:  auto;
-  width: 100%;
-}
-.activities1 i {
-    color: #d1945e;
-}
-.activities1 .paja-container img{
-  max-width: 487px;
-  max-height: 627px;
-  overflow: hidden;
-}
-.sticker-img {
-  max-width: 300px;
-  max-height: 300px;
-  overflow: hidden;
-}
-.activities1 .sticker-img img{
-  max-width: 300px;
-  max-height: 300px;
-  overflow: hidden;
-}
-.activities1 .sticker-container, .activities1 .paja-container{
-  background-color: #ebcda2;
-}
-.activities1 .join-container{
-  padding-top: 20px;
-      background-color: #efe2cf;
-}
-.activities1 .join-container a {
-    display: block;
-    float: right;
-}
-.activities1 .article-container{
-      padding: 15px 15px 15px 0;
-}
-.activities1 .article-title{
-  padding-top: 5px;
-  font-family: Arial;
-  font-size: 20px;
-  font-weight: bold;
+.radio-vote{
 
+border-left: 1px solid #8e7d60;
 }
 
-.activities1 .article-title{
-  display: inline-block;
-  padding-top: 10px;
+.votee {
+    padding: 3% 0;
 }
-.activities1 .article-info-block i{
-  display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
-margin-top: -5px;
+
+.vote-wrap {
+    padding: 6% 0;
 }
-.sticker-row{
-  margin:10px auto;
-  padding-top: 20px;
+.colum1{
+  text-align: right;
 }
-.fa-caret-left{
-  float:left;
+.colum2{
+  max-width: 500px;
 }
-.fa-caret-right{
-  float:right;
+.colum2 input[type="text"]{
+  width: 100%;
 }
-.activities1 .sticker-row{
-      border-top: 3px solid #8e7d60;
-      border-left: 3px solid #8e7d60;
+.story-content input{
+  height: 20vh;
+  text-align: left;
 }
-.activities1 .article-content {
-    text-decoration: none;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: Oswald;
-    color: #877d7b;
-}
-.activities1 .article-date{
-  font-size:20px;
-  font-family: 'Josefin Sans';
-}
-.activities1 .sticker-container .article-title{
-  font-size:50px;
-  font-family: Arial;
-  font-weight: 600;
-  color: white;
-}
-.activities1 .sticker-container .article-title+p{
-margin-top: -20px;
-}
-.join-text {
-    font-size: 15px;
-    font-family: Arial;
-    font-weight: bold;
-}
-.activities1 .event-list{
-    margin: 30px 0 30px 50px;
+.btn-primary{
+  background-color: #93c6e5;
+  border-color: #93c6e5;
 }

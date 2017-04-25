@@ -1,5 +1,5 @@
 body, html {
-    height: 100%;
+  height: 100%;
 }
 /* remove outer padding */
 
@@ -66,10 +66,10 @@ nav .navbar-brand img {
 
 
 /* main content on the right*/
-
+/*
 .content-section {
     height: 100vh;
-}
+}*/
 
 .contact-icon {
     display: inline-block;
@@ -185,9 +185,9 @@ section {
 /* FIRST PAGE CONTENT*/
 
 
-.content-section.about1 {
+.content-section.shop1 {
     /*height: 100vh;*/
-    background-color: #efe2cf;
+    /*background-color: #efe2cf;*/
 }
 .shop1 .img-container img{
   max-width: 100%;
@@ -198,4 +198,19 @@ margin-left: 40px;
   font-family: Arial;
   font-size: 2em;
   font-weight: bold;
+}
+.shop1 .img-container{
+  padding-bottom: 10px;
+}
+.caption{
+  text-align: center;
+  font-weight: bold;
+}
+.caption p{
+  margin:5px auto;
+}
+.caption span{
+  margin:5px auto;
+  color: red;
+  font-size: 15px;
 }

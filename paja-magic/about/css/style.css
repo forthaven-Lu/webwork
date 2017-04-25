@@ -6,12 +6,6 @@ body, html {
 .main {
     padding: 0px;
     margin-left: 0px;
-    background-color: #efe2cf;
-    height: 100vh;
-    background-image: url('../img/sleeping6.jpg');
-    background-position: 30% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .main .row {
@@ -71,10 +65,10 @@ nav .navbar-brand img {
 
 
 /* main content on the right*/
-/*
+
 .content-section {
     height: 100vh;
-}*/
+}
 
 .contact-icon {
     display: inline-block;
@@ -190,21 +184,21 @@ section {
 /* FIRST PAGE CONTENT*/
 
 
-.content-section.activities1 {
+.content-section.about1 {
     /*height: 100vh;*/
     background-color: #efe2cf;
 }
 
 
-/*.activities1 .join-container p{
+/*.about1 .join-container p{
   display: block;
   float: right;
 }
 */
-.activities1{
+.about1{
 margin-left: -10px;
 }
-.activities1 .title{
+.about1 .title{
 vertical-align: middle;
 margin-left: 40px;
   font-family: Arial;
@@ -215,28 +209,28 @@ margin-left: 40px;
 input:focus{
     outline: none;
 }
-.activities1 .title .email-container{
+.about1 .title .email-container{
 
 font-size: 20px;
 }
-.activities1 .email-container .emailinput{
+.about1 .email-container .emailinput{
   width: 100%;
   border-radius: 10px;
   border-width: 1px;
   background-color: transparent;
 }
-.activities1 .image-container {
+.about1 .image-container {
   overflow: hidden;
   max-width: 487px;
 }
-.activities1 img{
+.about1 img{
   height:  auto;
   width: 100%;
 }
-.activities1 i {
+.about1 i {
     color: #d1945e;
 }
-.activities1 .paja-container img{
+.about1 .paja-container img{
   max-width: 487px;
   max-height: 627px;
   overflow: hidden;
@@ -246,26 +240,28 @@ font-size: 20px;
   max-height: 300px;
   overflow: hidden;
 }
-.activities1 .sticker-img img{
+.about1 .sticker-img img{
   max-width: 300px;
   max-height: 300px;
   overflow: hidden;
 }
-.activities1 .sticker-container, .activities1 .paja-container{
+.about1 .sticker-container, .about1 .paja-container{
   background-color: #ebcda2;
 }
-.activities1 .join-container{
+.about1 .join-container{
   padding-top: 20px;
       background-color: #efe2cf;
 }
-.activities1 .join-container a {
+.about1 .join-container a {
     display: block;
     float: right;
 }
-.activities1 .article-container{
-      padding: 15px 15px 15px 0;
+.about1 .article-container{
+      padding: 15px 15px 0px 50px;
 }
-.activities1 .article-title{
+.about1 .story-container{  background-color: #ebcda2;
+}
+.about1 .article-title{
   padding-top: 5px;
   font-family: Arial;
   font-size: 20px;
@@ -273,55 +269,44 @@ font-size: 20px;
 
 }
 
-.activities1 .article-title{
+.about1 .article-title{
   display: inline-block;
   padding-top: 10px;
 }
-.activities1 .article-info-block i{
+.about1 .article-info-block i{
   display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
 margin-top: -5px;
 }
-.sticker-row{
-  margin:10px auto;
-  padding-top: 20px;
-}
-.fa-caret-left{
-  float:left;
-}
-.fa-caret-right{
-  float:right;
-}
-.activities1 .sticker-row{
-      border-top: 3px solid #8e7d60;
-      border-left: 3px solid #8e7d60;
-}
-.activities1 .article-content {
+
+.about1 .article-container {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 18px;
     font-weight: bold;
     font-family: Oswald;
     color: #877d7b;
 }
-.activities1 .article-date{
-  font-size:20px;
+.about1 .contact-title{
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 50px;
+  color:#8e7d60;
+}
+.about1 .namecard p{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+}
+.about1 .namecard span{
+  font-size:15px;
   font-family: 'Josefin Sans';
 }
-.activities1 .sticker-container .article-title{
-  font-size:50px;
-  font-family: Arial;
-  font-weight: 600;
-  color: white;
+.about1 .rowspace{
+  height: 10vh;
 }
-.activities1 .sticker-container .article-title+p{
-margin-top: -20px;
-}
-.join-text {
-    font-size: 15px;
-    font-family: Arial;
-    font-weight: bold;
-}
-.activities1 .event-list{
-    margin: 30px 0 30px 50px;
+.about1 .namecard{
+
+        border-top: 3px solid #8e7d60;
+        margin: 10px 30px 10px 10px;
 }

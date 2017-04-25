@@ -319,3 +319,12 @@ margin-top: -20px;
 .activities1 .event-list{
     margin: 30px 0 30px 50px;
 }
+.activities1 .event-container{
+  background-color: #ebcda2;
+}
+.activities1 .event-container .article-title{
+  font-size:50px;
+  font-family: Arial;
+  font-weight: 600;
+  color: white;
+}

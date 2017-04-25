@@ -103,8 +103,11 @@ nav .navbar-brand img {
 
 /* main content on the right*/
 
-.content-section {
+.content-section.sleeping1{
     height: 100vh;
+}
+.content-section.sleeping2{
+  min-height: 100vh;
 }
 
 .contact-icon {
